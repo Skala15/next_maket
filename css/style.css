@@ -400,17 +400,8 @@ header {
     background-color: dimgray;
 }
 
-
-
-
-
-
-
-
-
 .projects {
     height: 1162px;
-    border: 1px solid;
 }
 
 .projects-title {
@@ -576,9 +567,84 @@ header {
     background-color: dimgray;
 }
 
+.video {
+    position: relative;
+}
 
+.video-txt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    margin: 210px 0 0 0;
+}
 
+.video-txt-button {
+    display: block;
+    border: none;
+    width: 100px;
+    height: 100px;
+    background: none;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    outline: none;
+}
 
+.video-txt-button-background {
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+
+.video-txt-button-icon {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+}
+
+.video-txt-title {
+    display: block;
+    text-align: center;
+    margin: 44px 0 30px 0;
+    height: 22px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 30px; 
+    font-weight: 500;
+}
+
+.video-txt-paragraph {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 570px;
+    height: 43px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;    
+}
+
+.video-time {
+    display: block;
+    padding: 40px 0 0 0;
+    margin: 0 auto;
+    width: 36px;
+    height: 10px;
+    color: #c7b299;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;    
+}
 
 
 
