@@ -400,6 +400,14 @@ header {
     background-color: dimgray;
 }
 
+
+
+
+
+
+
+
+
 .projects {
     height: 1162px;
     border: 1px solid;
@@ -517,7 +525,6 @@ header {
   position: absolute;
   top: -50px;
   left: 20px;
-  position: relative;
 }
 
 .projects-pic-txt-title {
@@ -562,49 +569,12 @@ header {
 }
 
 .projects-button:hover {
-      filter: brightness(60%);
+      filter: brightness(60%)
 }
 
 .projects-button:active {
     background-color: dimgray;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
