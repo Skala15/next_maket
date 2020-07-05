@@ -261,6 +261,10 @@ header {
     text-align: center;
 }
 
+.change-figure-element:last-of-type {
+    margin: 0;
+}
+
 .change-svg {
     display: block;
     margin: 0 auto;
@@ -646,11 +650,9 @@ header {
     line-height: 24px;    
 }
 
-
-
-
 .mobile {
     display: flex;
+    height: 695px;
 }
 
 .mobile-img {
@@ -709,7 +711,85 @@ header {
 
 
 
+.progress {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    background-image: url(../img/aside.jpg);
+    color: #555555;
+}
 
+.progress-element:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 30px;
+  height: 2px;
+  background-color: #f1eee9;
+}
+
+.progress-element:hover:after {
+    background-color: #c7b299;
+}
+
+.progress-element {
+    margin: 70px 80px 0 0;
+    width: 140px;
+    text-align: center;
+}
+
+.progress-element:last-of-type {
+    margin: 70px 0 0 0;
+}
+
+.progress-svg {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 0 30px 0;
+    width: 44px;
+    height: 44px;
+    fill: #c7b299;
+}
+
+.progress-element-span {
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 21px 0;
+    width: 105px;
+    height: 34px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 36px;
+    text-align: center;
+}
+
+.progress-element:hover .progress-svg,
+.progress-element:hover .progress-element-span {
+    color: #c7b299;
+    fill: #fff;
+}
+
+.progress-element-paragraph {
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+    width: 140px;
+    height: 10px;
+    color: #c7b299;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.progress-element:hover .progress-element-paragraph {
+    color: #fff;
+}
 
 
 
