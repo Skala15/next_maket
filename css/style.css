@@ -649,6 +649,78 @@ header {
 
 
 
+.mobile {
+    display: flex;
+}
+
+.mobile-img {
+    margin: 79px 30px 0 423px;
+}
+
+.mobile-txt {
+    margin: 195px 0 0 0;
+}
+
+.mobile-txt-title {
+    width: 420px;
+    height: 22px;
+    margin: 0 0 40px 0;
+    color: #555555;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mobile-txt-paragraph {
+    width: 665px;
+    height: 99px;
+    margin: 0 0 45px 0;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.mobile-txt-list {
+    width: 620px;
+    height: 111px;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;    
+}
+
+.mobile-txt-list-item {
+    list-style-image: url(../img/item.png);
+    margin: 0 0 0 50px;
+}
+
+.mobile-txt-list-item:before {
+    content: "";
+    margin: 0 20px 0 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
