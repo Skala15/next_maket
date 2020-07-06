@@ -158,10 +158,45 @@ header {
     fill: black;
 }
 
-.header-menu-button-svg {
-  fill: #fff;
+.header-menu-button-img {
   width: 18px;
   height: 24px;
+}
+
+.header-menu-button-search {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+
+.header-menu-button-search__label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/icon-search.png);
+}
+
+.header-menu-button-search__input {
+  width: 0;
+  min-height: 0;
+  padding: 5px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: -4px;
+  left: 40px;
+  color: #fff;
+  font-size: 16px;
+  font-family: montserrat, serif;
+}
+
+.header-menu-button-search__input:focus {
+  width: 200px;
+  min-height: 20px;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  transition: width 1s ease;
 }
 
 .header-carousel {
