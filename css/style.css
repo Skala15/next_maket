@@ -1,9 +1,70 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/montserrat-thin.ttf);
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/montserrat-light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/montserrat-regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/raleway-regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/raleway-medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/raleway-semibold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/raleway-bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/raleway-extrabold.ttf);
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/roboto-regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
   width: 1920px;
   margin: 0 auto;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -44,7 +105,7 @@ header {
 
 .header-menu-logo-title {
   color: #ffffff;
-  font-family: Raleway;
+  font-family: raleway, sans-serif;
   font-size: 34px;
   font-weight: 400; 
   letter-spacing: 1.36px;
@@ -65,7 +126,7 @@ header {
 .header-menu-nav-link {
   min-width: 30px;
   height: 10px;
-  font-family: Montserrat;
+  font-family: montserrat, serif;
   font-size: 14px;
   font-weight: 300;
   margin: 0 30px 0 0;
@@ -116,7 +177,7 @@ header {
     min-height: 10px;
     margin: 0;
     color: #ffffff;
-    font-family: Raleway;
+    font-family: raleway, sans-serif;
     font-size: 36px;
     font-weight: 500;
     text-align: center;
@@ -127,9 +188,9 @@ header {
     min-height: 10px;
     margin: 14px 0 19px 0;
     color: #ffffff;
-    font-family: Raleway;
+    font-family: raleway, sans-serif;
     font-size: 52px;
-    font-weight: bold;    
+    font-weight: 800;    
 }
 
 .header-carousel-paragraph {
@@ -137,7 +198,7 @@ header {
     min-height: 39px;
     margin: 0 0 52px 0;
     color: #ffffff;
-    font-family: Montserrat;
+    font-family: montserrat, sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
@@ -155,9 +216,9 @@ header {
     background-color: #998675;
     color: #fff;
     line-height: 53px;
-    font-family: Raleway;
+    font-family: raleway, sans-serif;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 800;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
@@ -251,10 +312,6 @@ header {
     background-color: #c7b299;
 }
 
-.change-figure-element:active:after {
-    background-color: black;
-}
-
 .change-figure-element {
     margin: 0 33px 0 0;
     width: 280px;
@@ -279,9 +336,9 @@ header {
     margin: 30px 0 0 0;
     height: 21px;
     color: #555555;
-    font-family: Raleway;
+    font-family: raleway, sans-serif;
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -297,7 +354,7 @@ header {
     width: 266px;
     height: 62px;
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: montserrat, sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
@@ -316,9 +373,9 @@ header {
     margin: 0 0 24px 0;
     padding: 80px 0 0 0;
     color: #555555;
-    font-family: Raleway;
+    font-family: raleway, sans-serif;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .change-ideas-txt {
@@ -328,7 +385,7 @@ header {
     padding: 0 0 32px 0;
     min-height: 43px;
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: montserrat, sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
@@ -361,7 +418,7 @@ header {
     width: 530px;
     height: 27px;
     color: #ffffff;
-    font-family: Raleway;
+    font-family: raleway, sans-serif;
     font-size: 28px;
     font-weight: 400;
 }
@@ -373,7 +430,7 @@ header {
 .advertising-paragraph {
     height: 18px;
     color: #615855;
-    font-family: Montserrat;
+    font-family: montserrat, sans-serif;
     font-size: 18px;
     font-weight: 300;    
 }
@@ -388,9 +445,9 @@ header {
     background-color: #998675;
     color: #fff;
     line-height: 53px;
-    font-family: Raleway;
+    font-family: raleway, sans-serif;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 800;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
@@ -410,11 +467,12 @@ header {
 
 .projects-title {
     display: block;
-    margin: 81px 0 24px 0;
+    padding: 81px 0 24px 0;
+    margin: 0;
     color: #555555;
-    font-family: Raleway;
+    font-family: raleway, sans-serif;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -424,7 +482,7 @@ header {
     width: 780px;
     min-height: 43px;
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: montserrat, sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;  
@@ -449,7 +507,7 @@ header {
     width: 83px;
     height: 14px;
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: montserrat, sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 21px;    
@@ -528,7 +586,7 @@ header {
     height: 15px;
     margin: 30px 0 14px 28px;
     color: #c7b299;
-    font-family: Raleway;
+    font-family: raleway, sans-serif;
     font-size: 20px;
     font-weight: 500;
 }
@@ -539,7 +597,7 @@ header {
     height: 14px;
     margin: 0 0 0 28px;
     color: #d1d1d1;
-    font-family: Montserrat;
+    font-family: montserrat, sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
@@ -555,9 +613,9 @@ header {
     background-color: #998675;
     color: #fff;
     line-height: 53px;
-    font-family: Raleway;
+    font-family: raleway, sans-serif;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 800;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
@@ -619,7 +677,7 @@ header {
     margin: 44px 0 30px 0;
     height: 22px;
     color: #ffffff;
-    font-family: Raleway;
+    font-family: raleway, sans-serif;
     font-size: 30px; 
     font-weight: 500;
 }
@@ -631,7 +689,7 @@ header {
     width: 570px;
     height: 43px;
     color: #ffffff;
-    font-family: Montserrat;
+    font-family: montserrat, sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;    
@@ -644,7 +702,7 @@ header {
     width: 36px;
     height: 10px;
     color: #c7b299;
-    font-family: Montserrat;
+    font-family: montserrat, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;    
@@ -668,9 +726,9 @@ header {
     height: 22px;
     margin: 0 0 40px 0;
     color: #555555;
-    font-family: Raleway;
+    font-family: raleway, sans-serif;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .mobile-txt-paragraph {
@@ -678,7 +736,7 @@ header {
     height: 99px;
     margin: 0 0 45px 0;
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: montserrat, sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
@@ -688,7 +746,7 @@ header {
     width: 620px;
     height: 111px;
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: montserrat, sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 32px;    
@@ -753,9 +811,9 @@ header {
     width: 105px;
     height: 34px;
     color: #ffffff;
-    font-family: Montserrat;
+    font-family: montserrat, sans-serif;
     font-size: 48px;
-    font-weight: 200;
+    font-weight: 100;
     line-height: 36px;
     text-align: center;
 }
@@ -773,9 +831,9 @@ header {
     width: 140px;
     height: 10px;
     color: #c7b299;
-    font-family: Montserrat;
+    font-family: montserrat, sans-serif;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -796,9 +854,9 @@ header {
     width: 100%;
     min-height: 21px;
     color: #555555;
-    font-family: Raleway;
+    font-family: raleway, sans-serif;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -807,7 +865,7 @@ header {
     margin: 0 auto;
     min-height: 43px;
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: montserrat, sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
@@ -843,9 +901,9 @@ header {
     border-radius: 4px 4px 0 0;
     margin: 0;
     color: #ffffff;
-    font-family: Montserrat;
+    font-family: montserrat, sans-serif;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 20px;
 }
 
@@ -860,7 +918,7 @@ header {
     border-radius: 0 0 4px 4px;
     margin: 0;
     color: #ffffff;
-    font-family: Roboto;
+    font-family: roboto, sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 20px;    
@@ -872,7 +930,7 @@ header {
     width: 260px;
     height: 19px;
     color: #555555;
-    font-family: Raleway;
+    font-family: raleway, sans-serif;
     font-size: 20px;
     font-weight: 500;
 }
@@ -883,7 +941,7 @@ header {
     width: 310px;
     height: 36px;
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: montserrat, sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -894,7 +952,7 @@ header {
     width: 100px;
     min-height: 11px;
     color: #c7b299;
-    font-family: Montserrat;
+    font-family: montserrat, sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
