@@ -158,9 +158,16 @@ header {
     fill: black;
 }
 
-.header-menu-button-img {
-  width: 18px;
-  height: 24px;
+.header-menu-button-svg {
+    fill: #fff;
+    width: 18px;
+    height: 24px;
+}
+
+.header-menu-button-svg-search {
+    fill: #fff;
+    width: 24px;
+    height: 24px;
 }
 
 .header-menu-button-search {
@@ -174,7 +181,6 @@ header {
   margin: 0 0 0 30px;
   width: 100%;
   height: 100%;
-  background-image: url(../img/icon-search.png);
 }
 
 .header-menu-button-search__inp {
@@ -185,8 +191,8 @@ header {
   background-color: transparent;
   border: none;
   position: absolute;
-  top: -4px;
-  left: 70px;
+  top: 50px;
+  left: -140px;
   color: #fff;
   font-size: 16px;
   font-family: montserrat, serif;
@@ -198,6 +204,14 @@ header {
   border: 1px solid #fff;
   border-radius: 6px;
   transition: width 1s ease;
+}
+
+.header-menu-button-search__lab:hover .header-menu-button-svg-search {
+    fill: #c7b299;
+}
+
+.header-menu-button-search__inp:focus ~ .header-menu-button-search__lab> .header-menu-button-svg-search {
+    fill: #c7b299;
 }
 
 .header-carousel {
@@ -526,35 +540,37 @@ header {
 }
 
 .projects-menu {
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin: 40px 0 25px 0;
     min-height: 30px;
 }
 
-.projects-menu-link {
+.projects-menu-button {
+    display: block;
     min-width: 70px;
-    height: 32px;
+    min-height: 32px;
     border: 1px solid #ebebeb;
     border-radius: 3px;
-    padding: 10px 24px 10px 24px;
+    padding: 0 24px 0 24px;
     margin: 0 10px 0 0;
     text-align: center;
     text-decoration: none;
-    width: 83px;
-    height: 14px;
+    outline: none;
     color: #8c8c8c;
     font-family: montserrat, sans-serif;
     font-size: 14px;
     font-weight: 300;
-    line-height: 21px;    
+    line-height: 32px;    
 }
 
-.projects-menu-link:hover {
+.projects-menu-button:hover {
     background-color: #998675;
     color: #fff;
 }
 
-.projects-menu-link:active {
+.projects-menu-button:active {
     background-color: dimgray;
     color: #fff;
 }
@@ -682,29 +698,29 @@ header {
     border: none;
     width: 100px;
     height: 100px;
-    background: none;
-    border-radius: 50%;
+    background-image: url(../img/circle.png);
+    background-color: transparent;
     position: relative;
     margin: 0 auto;
     outline: none;
-}
-
-.video-txt-button-background {
-    display: block;
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    top: 0;
-    left: 0;
 }
 
 .video-txt-button-icon {
     position: absolute;
     top: 15px;
     left: 15px;
-    margin: 0 auto;
     width: 70px;
     height: 70px;
+    margin: 0 auto;
+    fill: #fff;
+}
+
+.video-txt-button:hover .video-txt-button-icon {
+    fill: #c7b299;
+}
+
+.video-txt-button:active .video-txt-button-icon {
+    fill: black;
 }
 
 .video-txt-title {
