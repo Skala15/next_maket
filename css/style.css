@@ -1317,11 +1317,66 @@ margin: 0 90px 0 0;
     margin: 0 0 10px 0;
 }
 
+.faq {
+    background-color: #111111;
+    min-height: 111px;
+}
 
+.faq-num{
+    display: flex;
+    justify-content: center;
+}
 
+.faq-num-list {
+    padding: 0;
+    margin: 0 465px 0 0;
+    display: flex;
+    list-style-type: none;
+    min-height: 13px;
+    color: #555555;
+    font-family: montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+}
 
+.faq-num-author {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none; 
+    min-height: 13px;
+    color: #555555;
+    font-family: montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+}
 
+.faq-num-list-item-link {
+    display: block;
+    text-decoration: none;
+    color: #555555;
+}
 
+.faq-num-list-item-link:hover {
+    color: #c7b299;
+}
+
+.faq-num-list-item-link:active {
+    color: black;
+}
+
+.faq-num-list-item, .faq-num-author-item {
+    line-height: 111px;
+    display: block;
+    margin: 0 15px 0 0;
+}
+
+.faq-num-list-item span, 
+.faq-num-author span {
+    color: #959595; 
+}
 
 
 
