@@ -589,6 +589,7 @@ header {
     height: 337px;
     margin: 15px;
     background-color: #fbfaf8;
+    position: relative;
 }
 
 .projects-pic-item:hover {
@@ -653,6 +654,57 @@ header {
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
+}
+
+.projects-pic-item-link,
+.projects-pic-item-search {
+    width: 26px;
+    height: 26px;
+    border: none;
+    display: none;
+    background-color: transparent;
+    position: absolute;
+    outline: none;
+}
+
+.projects-pic-item-link {
+    top: 106px;
+    left: 144px;
+}
+
+.projects-pic-item-search {
+    top: 106px;
+    left: 200px;
+}
+
+.projects-pic-item-svg {
+    width: 26px;
+    height: 26px;
+    fill: #fff;
+}
+
+.projects-pic-item:hover .projects-pic-item-link {
+    display: block;
+}
+
+.projects-pic-item:hover .projects-pic-item-search {
+    display: block;
+}
+
+.projects-pic-item-link:hover .projects-pic-item-svg {
+    fill: #c7b299;
+}
+
+.projects-pic-item-search:hover .projects-pic-item-svg {
+    fill: #c7b299;
+}
+
+.projects-pic-item-link:active .projects-pic-item-svg {
+    fill: black;
+}
+
+.projects-pic-item-search:active .projects-pic-item-svg {
+    fill: black;
 }
 
 .projects-button {
@@ -796,7 +848,7 @@ header {
 
 .mobile-txt-list {
     width: 620px;
-    height: 111px;
+    min-height: 111px;
     color: #8c8c8c;
     font-family: montserrat, sans-serif;
     font-size: 16px;
