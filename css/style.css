@@ -864,7 +864,6 @@ header {
 .mobile-txt-list-item:before {
     content: "";
     margin: 0 20px 0 0;
-    
 }
 
 .progress {
