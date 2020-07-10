@@ -586,7 +586,7 @@ header {
 
 .projects-pic-item {
     width: 370px;
-    height: 337px;
+    min-height: 337px;
     margin: 15px;
     background-color: #fbfaf8;
     position: relative;
@@ -613,8 +613,7 @@ header {
 }
 
 .projects-pic-item-img {
-    width: 370px;
-    height: 237px;
+    min-height: 237px;
     display: block;
     width: 100%;
 }
@@ -636,7 +635,7 @@ header {
 .projects-pic-txt-title {
     display: block;
     width: 240px;
-    height: 15px;
+    min-height: 15px;
     margin: 30px 0 14px 28px;
     color: #c7b299;
     font-family: raleway, sans-serif;
@@ -735,6 +734,7 @@ header {
 
 .video {
     position: relative;
+    margin: 60px 0 0 0;
 }
 
 .video-txt {
@@ -968,7 +968,7 @@ header {
     text-align: center;
 }
 
-.posts-parigraph {
+.posts-paragraph {
     width: 770px;
     margin: 0 auto;
     min-height: 43px;
@@ -988,7 +988,7 @@ header {
 
 .posts-item-list {
     width: 370px;
-    height: 395px;
+    min-height: 395px;
     margin: 0 30px 0 0;
     border: 1px solid #fafafa;
     position: relative;
@@ -1036,7 +1036,7 @@ header {
     display: block;
     margin: 30px 0 20px 30px;
     width: 260px;
-    height: 19px;
+    min-height: 19px;
     color: #555555;
     font-family: raleway, sans-serif;
     font-size: 20px;
@@ -1047,12 +1047,18 @@ header {
     display: block;
     margin: 0 0 27px 30px;
     width: 310px;
-    height: 36px;
+    min-height: 36px;
     color: #8c8c8c;
     font-family: montserrat, sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
+}
+
+.posts-item-list-img {
+    min-height: 220px;
+    display: block;
+    width: 100%;
 }
 
 .posts-item-list-link {
@@ -1522,6 +1528,13 @@ margin: 0 90px 0 0;
     .projects-menu {
         display: none;
     }
+    .projects-pic-item {
+        width: 100%;
+    }
+    .projects-pic-item-img {
+        width: 100%;
+        height: 90%;
+    }
     .video-file {
         width: 100%;
         min-height: auto;
@@ -1548,8 +1561,32 @@ margin: 0 90px 0 0;
     .mobile-txt-list {
         margin: 0 auto;
     }
+    .posts {
+        min-height: auto;
+    }
+    .posts-title {
+        width: 100%;
+        min-height: auto;
+    }
+    .posts-paragraph {
+        width: 100%;
+        min-height: auto;
+    }
     .posts-item {
         flex-wrap: wrap;
+    }
+    .posts-item-list {
+        width: 80%;
+        min-height: 80%;
+        margin: 0 0 9em 0;
+    }
+    .posts-item-list-img {
+        width: 100%;
+        height: 90%;
+    }
+    .posts-item-list-paragraph {
+        width: 100%;
+        min-height: auto;
     }
     .pictures {
         flex-wrap: wrap;
