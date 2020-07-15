@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Зачётный макет</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -16,7 +17,11 @@
         <span class="header-menu-logo-title">Waxom</span>
       </a>
       <nav class="header-menu-nav">
-        <ul>
+        <input id="menu-input" type="checkbox" />
+        <label class="menu-label" for="menu-input">
+            <span></span>
+        </label>
+        <ul class="header-menu-nav-ul">
           <li class="header-menu-nav-link"><a href="index.html">Home</a></li>
           <li class="header-menu-nav-link"><a href="#">About us</a></li>
           <li class="header-menu-nav-link"><a href="#">Portfolio</a></li>
@@ -117,7 +122,7 @@
         </div>
         <div class="projects-pic">
            <div class="projects-pic-item">
-                <img class="projects-pic-item-img" src="img/project_1.jpg" alt="project_1" width="370" height="337">
+                <img class="projects-pic-item-img" src="img/project_1.jpg" alt="project_1" width="370" height="237">
                 <div class="projects-pic-item-txt">
                    <span class="projects-pic-txt-title">Claritas Etiam Processus</span>
                    <span class="projects-pic-txt-paragraph">Photography, Nature</span>
@@ -134,7 +139,7 @@
                 </button>
             </div>
             <div class="projects-pic-item">
-                <img class="projects-pic-item-img" src="img/project_2.jpg" alt="project_2" width="370" height="337">
+                <img class="projects-pic-item-img" src="img/project_2.jpg" alt="project_2" width="370" height="237">
                 <div class="projects-pic-item-txt">
                    <span class="projects-pic-txt-title">Claritas Etiam Processus</span>
                    <span class="projects-pic-txt-paragraph">Photography, Nature</span>
@@ -151,7 +156,7 @@
                 </button>
             </div>
             <div class="projects-pic-item">
-                <img class="projects-pic-item-img" src="img/project_3.jpg" alt="project_3" width="370" height="337">
+                <img class="projects-pic-item-img" src="img/project_3.jpg" alt="project_3" width="370" height="237">
                 <div class="projects-pic-item-txt">
                    <span class="projects-pic-txt-title">Claritas Etiam Processus</span>
                    <span class="projects-pic-txt-paragraph">Photography, Nature</span>
@@ -168,7 +173,7 @@
                 </button>
             </div>
             <div class="projects-pic-item">
-                <img class="projects-pic-item-img" src="img/project_4.jpg" alt="project_4" width="370" height="337">
+                <img class="projects-pic-item-img" src="img/project_4.jpg" alt="project_4" width="370" height="237">
                 <div class="projects-pic-item-txt">
                    <span class="projects-pic-txt-title">Claritas Etiam Processus</span>
                    <span class="projects-pic-txt-paragraph">Photography, Nature</span>
@@ -185,7 +190,7 @@
                 </button>
             </div>
             <div class="projects-pic-item">
-                <img class="projects-pic-item-img" src="img/project_5.jpg" alt="project_5" width="370" height="337">
+                <img class="projects-pic-item-img" src="img/project_5.jpg" alt="project_5" width="370" height="237">
                 <div class="projects-pic-item-txt">
                    <span class="projects-pic-txt-title">Claritas Etiam Processus</span>
                    <span class="projects-pic-txt-paragraph">Photography, Nature</span>
@@ -202,7 +207,7 @@
                 </button>
             </div>
             <div class="projects-pic-item">
-                <img class="projects-pic-item-img" src="img/project_6.jpg" alt="project_6" width="370" height="337">
+                <img class="projects-pic-item-img" src="img/project_6.jpg" alt="project_6" width="370" height="237">
                 <div class="projects-pic-item-txt">
                    <span class="projects-pic-txt-title">Claritas Etiam Processus</span>
                    <span class="projects-pic-txt-paragraph">Photography, Nature</span>
@@ -238,6 +243,7 @@
         <img class="mobile-img" src="img/iPhone_in_hand.jpg" alt="background" width="423" height="616">
         <div class="mobile-txt">
             <h3 class="mobile-txt-title">Excellent for Mobile Devices.</h3>
+            <img class="mobile-img-mobilverse" src="img/iPhone_in_hand.jpg" alt="background" height="616">
             <p class="mobile-txt-paragraph">Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
             <ul class="mobile-txt-list">
                 <li class="mobile-txt-list-item">Nam liber tempor cum soluta nobis eleifend option;</li>
@@ -286,7 +292,7 @@
     </section>
     <section class="posts">
         <h3 class="posts-title">Recent Posts.</h3>
-        <p class="posts-parigraph">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+        <p class="posts-paragraph">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
         <div class="posts-item">
            <div class="posts-item-list">
                 <img src="img/posts_img_1.jpg" alt="photo" class="posts-item-list-img" height="220">
@@ -389,7 +395,7 @@
     <div class="faq">
         <nav class="faq-nav">
            <ul class="faq-nav-list">
-               <li class="faq-nav-list-item">Copyright &copy; 2015 <span>Waxom</span></li>
+               <li class="faq-nav-list-item">Copyright&copy;2015 <span>Waxom</span></li>
                <li class="faq-nav-list-item"><a href="" class="faq-nav-list-item-link">Privacy Policy</a></li>
                <li class="faq-nav-list-item"><a href="" class="faq-nav-list-item-link">FAQ</a></li>
                <li class="faq-nav-list-item"><a href="" class="faq-nav-list-item-link">Support</a></li>
